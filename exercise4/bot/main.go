@@ -15,7 +15,7 @@ import (
 func sendRequest(ctx context.Context) {
 	port := os.Getenv("PORT")
 	js, err := json.Marshal(map[string]any{
-		"name": "AQZ",
+		"name": "AQZ+ILS",
 		"url":  fmt.Sprintf("http://127.0.0.1:%s", port),
 	})
 	if err != nil {
